@@ -110,6 +110,16 @@ Surjith S M / @surjithctly
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .visible-sm-no {
+    display: none !important;
+  }
+}
+
+.visible-sm-no {
+  display: inline;
+}
+
 .navbar-light .navbar-toggler {
   cursor: pointer;
 }
@@ -170,6 +180,7 @@ Surjith S M / @surjithctly
     width: 100%;
     margin-bottom: 10px;
   }
+
 }
 
 .btn-primary:hover,
